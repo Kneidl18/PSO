@@ -1,5 +1,5 @@
 import os
-import defines
+from plotting import defines
 from PyPDF2 import PdfMerger
 
 def combine_pdfs(input_directory, output_filename):

@@ -1,5 +1,5 @@
 from .combine_pdf import combine
-import defines
+from . import defines
 
 import numpy as np
 import matplotlib.pyplot as plt

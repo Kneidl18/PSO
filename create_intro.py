@@ -1,6 +1,5 @@
 from PSO_implementation import ParticleSwarm
-from plotting import graph
-import defines
+from plotting import graph, defines
 import numpy as np
 
 
