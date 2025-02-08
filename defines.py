@@ -1,0 +1,2 @@
+INTRO = 0
+SWARM = 1

@@ -44,7 +44,7 @@ def plot_it():
 
 
 def save_it():
-    g.save(i, './plots/algo')
+    g.save(i, './plots/swarm')
     g.clear()
 
 

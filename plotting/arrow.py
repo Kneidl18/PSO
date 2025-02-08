@@ -35,5 +35,3 @@ class Arrow3D(FancyArrowPatch):
         arrow = Arrow3D(x, y, z, dx, dy, dz, *args, **kwargs)
         ax.add_artist(arrow)
     setattr(Axes3D, 'arrow3D', _arrow3D)
-
-
