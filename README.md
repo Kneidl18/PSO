@@ -33,9 +33,10 @@ This project is an implementation of the Particle Swarm Optimization (PSO) algor
     ```
 2. Initialize the particle swarm and run the simulation:
     ```python
-    swarm = ParticleSwarm(f, min_x, max_x, min_y, max_y, 100)
-    for i in range(amount):
+    swarm = ParticleSwarm(f, min_x, max_x, min_y, max_y, num_particles)
+    for i in range(iterations_t):
         swarm.move()
+        # how often to plot (here each 10 iterations)
         if i % (amount//10) == 0:
             plot_it()
             save_it()
