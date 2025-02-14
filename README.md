@@ -17,7 +17,7 @@ This project is an implementation of the Particle Swarm Optimization (PSO) algor
 ## Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/PSO.git
+    git clone https://github.com/Kneidl18/PSO.git
     cd PSO
     ```
 2. Install the required packages:
